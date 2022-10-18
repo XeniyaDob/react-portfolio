@@ -1,7 +1,15 @@
 import React from "react";
 import "./Footer.css";
 const Footer = () => {
-  return <div>Footer</div>;
-};
+  const today = new Date();
 
-export default Footer;
+  const thisYear = today.getFullYear();
+
+  return (
+    <footer>
+      <a href="#" className="footer_logo">
+        XD &copy;{thisYear}
+      </a>
+    </footer>
+  );
+};
