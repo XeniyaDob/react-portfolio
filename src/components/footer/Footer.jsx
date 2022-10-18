@@ -5,6 +5,7 @@ const Footer = () => {
 
   const thisYear = today.getFullYear();
 
+
   return (
     <footer>
       <a href="#" className="footer_logo">
@@ -13,5 +14,3 @@ const Footer = () => {
     </footer>
   );
 };
-
-export default Footer;
