@@ -1,7 +1,33 @@
 import React from "react";
 import "./Contact.css";
 import { BsLinkedin } from "react-icons/bs";
+import { useRef } from "react";
+import emailjs from "emailjs-com";
+
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_3u8e1mj",
+        "template_jfme7j8",
+        form.current,
+        "YtGAqpBFe_L0pPnUo"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
+
   return (
     <section id="contact">
       <h5>Get in touch</h5>
@@ -19,7 +45,7 @@ const Contact = () => {
             </a>
           </article>
         </div>
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"
             name="name"
