@@ -8,11 +8,11 @@
   aspect-ratio: 1/1;
   border-radius: 2rem;
   background: linear-gradient(
-    45deg,
-    transparent,
-    var(--color-primary),
-    transparent
-  );
+      334deg,
+      rgb(22 185 149) -6%,
+      rgba(10, 185, 149, 0) 43%
+    ),
+    #dacdff;
   display: grid;
   place-items: center;
 }

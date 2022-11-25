@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import ME from "../../assets/avatar.png";
+import ME from "../../assets/xeniya.png";
 import { VscTools } from "react-icons/vsc";
 import { TbAward } from "react-icons/tb";
 import { MdWorkOutline } from "react-icons/md";
@@ -34,7 +34,7 @@ const About = () => {
             <article className="about_card">
               <MdWorkOutline className="about_icon" />
               <h5>Projects</h5>
-              <small>My pieces of Art</small>
+              <small>Currently creating Food app</small>
             </article>
           </div>
 

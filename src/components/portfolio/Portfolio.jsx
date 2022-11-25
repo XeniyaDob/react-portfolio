@@ -1,7 +1,7 @@
 import React from "react";
 import "./Portfolio.css";
-import TODO from "../../assets/todo.jpg";
-import MOVIE from "../../assets/movie.jpg";
+import TODO from "../../assets/todo.png";
+import MOVIE from "../../assets/movie.png";
 //DO Not use these images in production
 const data = [
   {
@@ -14,7 +14,7 @@ const data = [
   {
     id: 2,
     image: MOVIE,
-    title: "Movie recommendation app",
+    title: "Movie Recommendation App",
     github: "https://github.com/XeniyaDob/entertainment-hub",
     demo: "https://github.com/XeniyaDob/entertainment-hub",
   },
@@ -24,7 +24,7 @@ const Portfolio = () => {
   return (
     <section id="portfolio">
       <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h2>Projects</h2>
       <div className="container portfolio_container">
         {data.map(({ id, image, title, github, demo }) => {
           return (

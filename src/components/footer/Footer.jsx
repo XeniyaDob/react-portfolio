@@ -6,11 +6,16 @@ const Footer = () => {
   const thisYear = today.getFullYear();
 
 
+
   return (
     <footer>
       <a href="#" className="footer_logo">
+
         XD &copy;{thisYear}
       </a>
     </footer>
   );
 };
+
+export default Footer;
+
