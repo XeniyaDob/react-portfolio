@@ -7,11 +7,10 @@ const Footer = () => {
 
   return (
     <footer>
-      <a href="#" className="footer_logo">
+      <a href="#header" className="footer_logo">
         XD &copy;{thisYear}
       </a>
     </footer>
   );
 };
-
 export default Footer;
