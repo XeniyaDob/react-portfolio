@@ -5,12 +5,17 @@ const Footer = () => {
 
   const thisYear = today.getFullYear();
 
+
+
   return (
     <footer>
+
       <a href="#header" className="footer_logo">
         Xeniya Dobrogorskaya Portfolio &copy;{thisYear}
       </a>
     </footer>
   );
 };
+
 export default Footer;
+
