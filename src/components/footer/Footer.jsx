@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer>
       <a href="#header" className="footer_logo">
-        XD &copy;{thisYear}
+        Xeniya Dobrogorskaya Portfolio &copy;{thisYear}
       </a>
     </footer>
   );

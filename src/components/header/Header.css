@@ -1,5 +1,6 @@
 /* header {
 } */
+
 .header_container {
   height: 100vh;
   padding-top: 7rem;
@@ -175,10 +176,12 @@
   position: absolute;
   margin-bottom: 2rem;
   right: -2.3rem;
-  bottom: 3rem;
+  bottom: 4rem;
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 1.5rem;
+  background-color: rgba(24, 2, 35, 0.6);
+  color: aliceblue;
 }
 /* ============== MEDIA QUERIES (TABLETS) ============== */
 @media screen and (max-width: 1024px) {
@@ -194,6 +197,9 @@
   }
   .header_socials,
   .scroll_down {
-    display: none;
+    font-size: 1rem;
+    background-color: aliceblue;
+    color: rgba(24, 2, 35, 0.6);
+    margin-bottom: 5rem;
   }
 }

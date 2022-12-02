@@ -54,7 +54,11 @@ const Services = () => {
             </li>
             <li>
               <FiCheckCircle className="service_list-icon" />
-              <p>React router and class components</p>
+              <p>Functional and class components</p>
+            </li>
+            <li>
+              <FiCheckCircle className="service_list-icon" />
+              <p>React router</p>
             </li>
             <li>
               <FiCheckCircle className="service_list-icon" />
