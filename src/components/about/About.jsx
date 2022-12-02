@@ -39,11 +39,12 @@ const About = () => {
           </div>
 
           <p>
-            I started to learn how to code about one year ago. As a visual
-            person, I enjoy web development. I find the most interesting part of
-            programming is being able to write some code and see the results
-            immediately on the screen. These days my time is spent learning,
-            researching, designing, and coding.
+            During the Pandemic, I started to code. As a visual person, I enjoy
+            web development. I find the most interesting part of programming is
+            being able to write some code and see the results immediately on the
+            screen. <br></br>
+            These days my time is spent learning, researching, designing, and
+            coding.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's talk

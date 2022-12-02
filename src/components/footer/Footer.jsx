@@ -9,9 +9,9 @@ const Footer = () => {
 
   return (
     <footer>
-      <a href="#" className="footer_logo">
 
-        XD &copy;{thisYear}
+      <a href="#header" className="footer_logo">
+        Xeniya Dobrogorskaya Portfolio &copy;{thisYear}
       </a>
     </footer>
   );

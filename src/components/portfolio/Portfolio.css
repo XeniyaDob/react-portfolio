@@ -19,13 +19,14 @@
   overflow: hidden;
 }
 .portfolio_item h3 {
-  margin: 1.2rem o 2rem;
+  margin: 1.2rem 0 2rem;
 }
 .portfolio_item-cta {
   display: flex;
   gap: 1rem;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 }
+
 /* ============== MEDIA QUERIES (TABLETS) ============== */
 @media screen and (max-width: 1024px) {
   .portfolio_container {
