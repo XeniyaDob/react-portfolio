@@ -2,7 +2,8 @@ import React from "react";
 import "./Portfolio.css";
 import TODO from "../../assets/todo.png";
 import MOVIE from "../../assets/movie.png";
-//DO Not use these images in production
+import MYKITCHEN from "../../assets/mykitchen.png";
+
 const data = [
   {
     id: 1,
@@ -12,15 +13,27 @@ const data = [
     credentials: "CTD School project",
     github: "https://github.com/XeniyaDob/ctd-react-albatross",
     demo: "https://xeniya.gor.sh/todo/",
+    comment: "My first React app",
   },
   {
     id: 2,
     image: MOVIE,
     title: "Movie Recommendation App",
     credentialsLink: "https://www.youtube.com/watch?v=vxUfx4aM5d8&t=7019s",
-    credentials: "YouTube tutorial",
+    credentials: "Created from a YouTube tutorial",
     github: "https://github.com/XeniyaDob/entertainment-hub",
-    demo: "https://github.com/XeniyaDob/entertainment-hub",
+    demo: "https://xeniya.gor.sh/entertainment/",
+    comment: "Currently, work on the new version",
+  },
+  {
+    id: 3,
+    image: MYKITCHEN,
+    title: "Recipe recommendation MyKitchen App",
+    credentialsLink: "https://codethedream.org/",
+    credentials: "CTD School project",
+    github: "https://github.com/Code-the-Dream-School/MyKitchenApp-front",
+    demo: "https://xeniya.gor.sh/mykitchen/",
+    comment: "Life DEMO is coming soon",
   },
 ];
 
@@ -39,6 +52,7 @@ const Portfolio = () => {
             demo,
             credentials,
             credentialsLink,
+            comment,
           }) => {
             return (
               <article key={id} className="portfolio_item">
@@ -48,11 +62,13 @@ const Portfolio = () => {
                 <h3>{title}</h3>
                 <a
                   href={credentialsLink}
+                  rel="noreferrer"
                   target="_blank"
                   className="credentials"
                 >
                   {credentials}
                 </a>
+                <p>{comment}</p>
                 <div className="portfolio_item-cta">
                   <a
                     href={github}
