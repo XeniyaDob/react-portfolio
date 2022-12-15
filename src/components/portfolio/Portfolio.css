@@ -42,4 +42,7 @@
     grid-template-columns: 1fr;
     gap: 1rem;
   }
+  .portfolio_item-image {
+    height: 15rem;
+  }
 }

@@ -16,6 +16,9 @@ const CTA = () => {
       <a href="#contact" className="btn btn-primary">
         Contact me
       </a>
+      <a href="#portfolio" className="btn">
+        Projects
+      </a>
     </div>
   );
 };
